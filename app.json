@@ -31,6 +31,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d3fba923-be0b-488f-8760-0ff677fc0a48"
+      }
+    },
+    "owner": "nicktrout"
   }
 }
