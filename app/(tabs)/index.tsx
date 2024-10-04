@@ -55,7 +55,8 @@ export default function HomeScreen() {
 			GetUserPetData(doc.id, 0)
     });
   };
-  
+  //NOTES TO ME: This can all be moved into a child component and will declutter this page quite a bit
+  //Check explore.tsx and childComponent.tsx for good example of how we could implement.
   const Tile = ({ title }) => (
     <ThemedView style={[styles.petTile, styles.shadowProp]}> 
       <ThemedText style={styles.petinfo}>
